@@ -1,0 +1,16 @@
+[workspace]
+members = [
+  # Libraries
+  "libs/meta",
+  "libs/acl",
+  "libs/utils/cap",
+  "libs/utils/cops",
+  "libs/utils/macros",
+  "libs/utils/telemetry",
+
+  # CRD types
+  "api/source/github-keys",
+
+  # Controllers
+  "controllers/source/github-keys",
+]

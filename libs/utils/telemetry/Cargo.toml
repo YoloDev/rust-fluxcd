@@ -1,0 +1,14 @@
+[package]
+name = "fluxcd-utils-telemetry"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eyre = "0.6"
+opentelemetry = { version = "0.17", features = ["rt-tokio"] }
+opentelemetry-jaeger = { version = "0.16", features = ["rt-tokio"] }
+tracing-opentelemetry = "0.17"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
+tracing-tree = "0.2"

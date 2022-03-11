@@ -1,0 +1,7 @@
+apiVersion: source.fluxcd.yolodev.io/v1beta1
+kind: GitHubUserSshKeys
+metadata:
+  name: alxandr
+spec:
+  interval: 1h
+  user: Alxandr
