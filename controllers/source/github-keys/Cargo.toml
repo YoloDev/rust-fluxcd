@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 async-trait = "0.1"
 eyre = "0.6"
-kube = { version = "0.69", default-features = false, features = [
+kube = { version = "0.89", default-features = false, features = [
   "client",
   "rustls-tls",
 ] }
