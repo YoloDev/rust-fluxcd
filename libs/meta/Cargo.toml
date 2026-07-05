@@ -6,20 +6,20 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-k8s-openapi = { version = "0.14", default-features = false }
-paste = "1"
-schemars = "0.8"
-serde = { version = "1", features = ["derive"] }
-time = "0.3"
-thiserror = "1"
-utf-8 = "0.7"
+k8s-openapi = { version = "=0.14.0", default-features = false }
+paste = "=1.0.6"
+schemars = "=0.8.8"
+serde = { version = "=1.0.136", features = ["derive"] }
+time = "=0.3.7"
+thiserror = "=1.0.30"
+utf-8 = "=0.7.6"
 
 fluxcd-utils-macros = { version = "0.0.0", path = "../utils/macros" }
 
 [dev-dependencies]
-k8s-openapi = { version = "0.14", default-features = false, features = [
+k8s-openapi = { version = "=0.14.0", default-features = false, features = [
   "v1_21",
 ] }
-serde_test = "1"
-time = { version = "0.3", features = ["formatting"] }
-test-case = "2"
+serde_test = "=1.0.136"
+time = { version = "=0.3.7", features = ["formatting"] }
+test-case = "=2.0.0"

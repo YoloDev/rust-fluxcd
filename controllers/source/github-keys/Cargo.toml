@@ -6,16 +6,16 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-async-trait = "0.1"
-eyre = "0.6"
-kube = { version = "0.69", default-features = false, features = [
+async-trait = "=0.1.52"
+eyre = "=0.6.7"
+kube = { version = "=0.69.1", default-features = false, features = [
   "client",
   "rustls-tls",
 ] }
-k8s-openapi = { version = "0.14", default-features = false, features = [
+k8s-openapi = { version = "=0.14.0", default-features = false, features = [
   "v1_21",
 ] }
-serde_yaml = "0.8"
+serde_yaml = "=0.8.23"
 
 fluxcd-api-source-github-keys = { version = "0.0.0", path = "../../../api/source/github-keys" }
 fluxcd-utils-cap = { version = "0.0.0", path = "../../../libs/utils/cap" }
