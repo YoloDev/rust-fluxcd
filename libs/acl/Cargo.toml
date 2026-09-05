@@ -10,7 +10,7 @@ k8s-openapi = { version = "0.14", default-features = false }
 # paste = "1"
 schemars = "0.8"
 serde = { version = "1", features = ["derive"] }
-thiserror = "1"
+thiserror = "2"
 utf-8 = "0.7"
 
 fluxcd-utils-macros = { version = "0.0.0", path = "../utils/macros" }
