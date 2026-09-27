@@ -11,7 +11,7 @@ paste = "1"
 schemars = "0.8"
 serde = { version = "1", features = ["derive"] }
 time = "0.3"
-thiserror = "1"
+thiserror = "2"
 utf-8 = "0.7"
 
 fluxcd-utils-macros = { version = "0.0.0", path = "../utils/macros" }
