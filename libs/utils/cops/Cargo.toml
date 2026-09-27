@@ -13,7 +13,7 @@ kube = { version = "0.69", default-features = false, features = [
   "client",
   "runtime",
 ] }
-prometheus = "0.13"
+prometheus = "0.14"
 schemars = "0.8"
 serde = "1"
 
